@@ -27,7 +27,7 @@ class Renban {
 
 	public String getNumber() {
 		number = number + 1;
-		String str = String.format("%04d", number);
-		return str;
+		String resultNumber = String.format("%04d", number);
+		return resultNumber;
 	}
 }
