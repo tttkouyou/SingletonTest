@@ -10,10 +10,7 @@ public class SingletonTest {
 		System.out.println(renbanB.getNumber());
 		System.out.println(renbanA.getNumber());
 		System.out.println(renbanB.getNumber());
-
-
 	}
-
 }
 
 class Renban {
