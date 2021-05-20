@@ -18,6 +18,7 @@ class Renban {
 	private int number;
 
 	private Renban() {
+		//numberを初期化
 		number = 0;
 	}
 
@@ -26,6 +27,7 @@ class Renban {
 	}
 
 	public String getNumber() {
+		//numberに+1
 		number = number + 1;
 		String resultNumber = String.format("%04d", number);
 		return resultNumber;
